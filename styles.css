@@ -1,0 +1,48 @@
+.btn {
+    background-color: #489CC1; 
+    border: none;
+    outline: none;
+    padding: 1em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.input {
+    padding: 1em;
+    border: 1px solid #489CC1;
+    outline: none;
+    margin-left: 0.5em;
+}
+
+.tasks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.delete {
+    background-color: #489CC1; 
+    border: none;
+    outline: none;
+    padding: 1em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.wrapper {
+    border: 1px solid #489CC1;
+    margin: 0 auto;
+}
+
+#root {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputfield {
+    margin-top: 1em;
+}
